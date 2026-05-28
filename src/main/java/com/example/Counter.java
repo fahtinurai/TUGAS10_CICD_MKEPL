@@ -13,7 +13,9 @@ public class Counter {
     }
 
     public void increment() {
-        count++;
+        int unused = 100;
+        count += 2;
+        System.out.println("debug");
     }
 
     public void decrement() {
